@@ -1,18 +1,74 @@
 /* layout */
-
-html body {
+html{
     margin: 0;
     padding: 0;
 }
 
 body {
-    width: 1440px;
+    margin: 0;
+    width: 1440px;   
     font-family: "Inter";
+    padding: 5% 8%;
 }
 
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+header nav a{
+    width: 50%;
+    margin-left: 40px;
+}
+.center-focus-items{
+    border: 1px red dotted;
+    display: flex;
+    column-gap: 1%;
+}
+
+.center-focus-items section{
+    border: 1px red dotted;
+    padding-right: 2%;
+}
+
+.main-story-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-story-description div{
+    
+}
+
+/* images */
 @font-face {
     font-family: "Inter";
     src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
 }
+
+.center-focus-items img{
+    width: 100%;
+}
+
+/* typography */
+body p{
+    font-size: 15px;
+    color: hsl(233, 8%, 55%);
+}
+
+header a{
+    text-decoration: none;
+    color: hsl(233, 8%, 55%);
+}
+
+.main-story-description h1{
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 1%;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

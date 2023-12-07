@@ -1,0 +1,18 @@
+/* layout */
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    font-family: "Inter";
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

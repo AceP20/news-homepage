@@ -53,9 +53,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -69,8 +66,9 @@ To see how you can add code snippets, see below:
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@font-face {
+    font-family: "Inter";
+    src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
 }
 ```
 ```js
